@@ -14,8 +14,12 @@ ZEROS = pd.DataFrame(np.zeros(50))
 '''
 A function to find the mean of a list
 '''
-def mean(list):
-  return sum(list) / len(list)
+
+def __init__(self):
+  self.list
+
+def mean(self):
+  return sum(self.list) / len(self.list)
 
 
 #second function
