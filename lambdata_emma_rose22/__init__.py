@@ -1,28 +1,19 @@
 """
 lambdata- a collection of data science useful functions
 """
-
-import pandas as pd
 import numpy as np
 
-# sample code
-ONES = pd.DataFrame(np.ones(10))
-ZEROS = pd.DataFrame(np.zeros(50))
-
-
-# first function
 '''
 A class to find the mean of a list
 '''
 
 
-class Mean:
+class Mean(object):
+    def __init__(self, numbers):
+        self.numbers = numbers
 
-    def __init__(self, list):
-        self.list
-
-    def mean(self.list):
-        return sum(self.list) / len(self.list)
+    def mean(self):
+        return sum(self.numbers) / len(self.numbers)
 
 
 # second function
